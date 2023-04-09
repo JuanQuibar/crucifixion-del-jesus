@@ -16,6 +16,7 @@ body{
     border-bottom: .1rem solid darkgray;
     margin-bottom: 0;
     padding-bottom: 0;
+    padding-bottom: 7px;
 }
 .aclaracion p, a{
     color: darkgray;
@@ -69,14 +70,15 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: .2rem solid darkgray;
+    border-top: .1rem solid darkgray;
     margin-top: 4rem;
+    margin-bottom: 10%;
 }
 .copyrigth{
     margin: 2rem 0 0 0 ;
 }
 
-.abaut p{
+.about p{
     color: darkgray;
     font-size: .8rem;
 }
@@ -85,4 +87,7 @@ p{
     font-size:.9rem;
     font-weight: bold;
     margin-bottom: 0;
+}
+span{
+    font-style: italic;
 }

@@ -11,16 +11,30 @@
     <meta property="og:type" content="article">
     <title>Crucifixion</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+
+if (window.location.hash && window.location.hash === '#about'){
+  window.location.replace(window.location.href.replace('#about', ''));
+}
+
+window.addEventListener("scroll", function() {
+  if (window.scrollY === 0) {
+    window.location.replace(window.location.href.replace('#about', ''))
+    console.log("listo")
+  }
+});
+
+    </script>
 </head>
 <body>
     <div>
-
+        
         <div class="contenedor aclaracion">
 
             <p>
                 Este trabajo es una combinación de inteligencia natural con inteligencia artificial. <br> <br>
                 Es el relato de la captura, condena y ejecución de Jesús de Nazaret, ambientando un día después del hecho. <br> <br>
-                <a href="#abaut">Leer más acerca de este trabajo</a>
+                <a href="#about">Leer más acerca de este trabajo</a>
             </p>
             
         </div>
@@ -57,14 +71,12 @@
             <p>Desde el mediodía y hasta las 15 de ese viernes, toda la provincia se cubrió de tinieblas.  A las 15 De Nazaret gritó con fuerza en arameo: “Eli, Elí, lamá sabactani”, que quiere decir: "¿Dios mío, porqué me has abandonado? Al oírlo, alguno de los presentes creyó que estaba invocando al profeta Elías y uno de ellos le ofreció vinagre en una esponja para aliviar sus dolores.</p>
             <p>Pero Jesús de Nazaret dio otro fuerte grito y murió y en ese mismo momento la tierra se sacudió con desconocida violencia. Para los sacerdotes del Sanedrín terminó así y para siempre la influencia y las prédicas de este hombre al que consideraban otro falso y peligroso profeta.</p>
 
-            <div class="footer" id="abaut">
+            <div class="footer" >
 
-                
-
-                <div class="abaut">
-                    <p >El texto de este trabajo fue realizado por una inteligencia natural, la del autor del copy. La imagen fue creada por la IA DeepDreamGenerator, que modificó una foto de la película <span>La pasión de Cristo</span> y le dio un leve estilo Miguel Angel. El código del documento HTML-CSS de este sitio web fue escrito a mano, también por el autor.</p>
+                <div class="about">
+                    <p >El texto de este trabajo fue realizado por una inteligencia natural, la del autor del copy. La imagen fue creada por la IA DeepDreamGenerator, que modificó una foto de la película <span>La pasión de Cristo</span> y le dio un leve estilo Miguel Angel. El código javascript y el documento HTML-CSS de este sitio web fueron escritos a mano, también por el autor.</p>
                 </div>
-                <div class="copyrigth">
+                <div class="copyrigth" id="about">
                     <p>&#169 Juanqui Bar 2023</p>
                 </div>
 
