@@ -57,7 +57,7 @@ p{
     }
     p{
         font-size:1.2rem ;
-        font-weight: lighter;
+        font-weight: normal;
     }
     .contenedor{
         display: flex;
